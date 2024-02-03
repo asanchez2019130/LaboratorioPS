@@ -1,12 +1,16 @@
 .card {
 
-    background-color: #FFF6E0;
+
+    box-shadow: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10%;
 
 }
 
 body {
 
     background-color: #D8D9DA;
+    background-image: url(./../img/1FondoLogin.jpg);
 
 }
 
