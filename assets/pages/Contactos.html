@@ -47,19 +47,19 @@
         <ul class="list-group">
             <li class="list-group-item mb-1">
                 <div class="d-flex justify-content-between align-items-center" id="1">
-                    <div>
+                    <div onclick="contacto1">
                         <h5 class="mb-0">Name : Anderson Uriel Sanchez Rogel</h5>
                         <p class="mb-0">Correo : asanchez-2019130@kinal.edu.gt</p>
                         <p class="mb-0">Telefono : +502 3246-0599</p>
                     </div>
-                    <a href="./detallesContacto.html">
-                        <button class="btn btn-danger btn-sm">Detalles</button>
+                    <a>
+                        <button class="btn btn-danger btn-sm" onclick="redirigirContactoDetalles('contacto1')">Detalles</button>
                     </a>
                 </div>
             </li>
             <li class="list-group-item mb-1">
                 <div class="d-flex justify-content-between align-items-center" id="2">
-                    <div>
+                    <div onclick="contacto2">
                         <h5 class="mb-0">Name : Elmer Rodrigo Santos García</h5>
                         <p class="mb-0">Correo : esantos-2019254@kinal.edu.gt</p>
                         <p class="mb-0">Telefono : +502 3246-0599</p>
@@ -71,7 +71,7 @@
             </li>
             <li class="list-group-item mb-1">
                 <div class="d-flex justify-content-between align-items-center" id="3">
-                    <div>
+                    <div onclick="contacto3">
                         <h5 class="mb-0">Name : Diego Sebastian Siney García</h5>
                         <p class="mb-0">Correo : dsiney-2021664@kinal.edu.gt</p>
                         <p class="mb-0">Telefono : +502 3246-0599</p>
@@ -83,7 +83,7 @@
             </li>
             <li class="list-group-item mb-1">
                 <div class="d-flex justify-content-between align-items-center" id="4">
-                    <div>
+                    <div onclick="contacto4">
                         <h5 class="mb-0">Name : Angel Kaled Rodriguez Soc</h5>
                         <p class="mb-0">Correo : arodriguez-2019620@kinal.edu.gt</p>
                         <p class="mb-0">Telefono : +502 1564-0065</p>
@@ -95,13 +95,13 @@
             </li>
             <li class="list-group-item mb-1">
                 <div class="d-flex justify-content-between align-items-center" id="5">
-                    <div>
+                    <div onclick="contacto3">
                         <h5 class="mb-0">Name : Junior Marco Tulio Sanchez Melgar</h5>
                         <p class="mb-0">Correo : jsanchez-2021387@kinal.edu.gt</p>
                         <p class="mb-0">Telefono : +502 3246-0599</p>
                     </div>
                     <a href="./detallesContacto.html">
-                        <button class="btn btn-danger btn-sm">Detalles</button>
+                        <button class="btn btn-danger btn-sm" onclick="obteneDetalleContacto">Detalles</button>
                     </a>
                 </div>
             </li>
@@ -121,6 +121,7 @@
         crossorigin="anonymous"></script>
 
         <script src="./../scripts/logicaDetalleContacto.js"></script>
+        <script src="./../scripts/logicaContacto.js"></script>
 </body>
 
 </html>
