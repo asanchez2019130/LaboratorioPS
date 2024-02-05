@@ -43,4 +43,5 @@ function handleListClick(event) {
     } else if (targetElement.classList.contains("deleteBtn")) {
         deleteTask(targetElement);
     }
+
 }
